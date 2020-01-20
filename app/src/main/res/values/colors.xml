@@ -7,5 +7,6 @@
     <color name="colorText">#fff4f6</color>
     <color name="colorTop">#be9b7b</color>
     <color name="colorConvert"> #854442</color>
+    <color name="colorData"> #3c2f2f</color>
     <color name="colorBottom">#fff4e6</color>
 </resources>

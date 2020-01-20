@@ -33,12 +33,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:textColor="@color/colorText"
+            android:textColor="@color/colorData"
             android:background="@color/colorBottom"
             android:layout_margin="20dp"
             android:padding="10dp"
-            android:inputType="numberDecimal"
-            android:textSize="60sp" />
+            android:inputType="numberDecimal|numberSigned"
+            android:textSize="50sp" />
 
         <Spinner
             android:id="@+id/spnrUnts"
@@ -48,8 +48,7 @@
             android:entries="@array/Units"
             android:padding="10dp"
             android:spinnerMode="dropdown"
-            android:textColor="@color/colorText"
-            android:textSize="50sp" />
+            android:theme="@style/spinnerStyles"/>
     </LinearLayout>
 
     <View
@@ -87,7 +86,7 @@
         android:textColor="@color/colorText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="60sp"
+        android:textSize="50sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
